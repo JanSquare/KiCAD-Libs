@@ -1,4 +1,4 @@
-(module 57PC5FS (layer F.Cu) (tedit 0)
+(module 57PC5FS (layer F.Cu) (tedit 5DF57B26)
   (descr 57PC5FS)
   (tags Connector)
   (fp_text reference J** (at 8.5334 -0.1684) (layer F.SilkS)
@@ -21,6 +21,7 @@
   (fp_line (start 15.7 -10.2) (end 15.7 -6.5) (layer F.SilkS) (width 0.254))
   (fp_line (start 15.7 10.2) (end 15.7 6.5) (layer F.SilkS) (width 0.254))
   (fp_circle (center 12.614 11.176) (end 12.614 11.32031) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0 0) (end -0.5 0) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at 12.71 7.505) (size 2.2 2.2) (drill 1.4) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 12.71 0) (size 2.2 2.2) (drill 1.4) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 12.71 -7.505) (size 2.2 2.2) (drill 1.4) (layers *.Cu *.Mask))

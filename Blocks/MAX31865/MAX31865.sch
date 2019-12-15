@@ -1,0 +1,299 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JanSquareLib:MAX31865AAP+T U1
+U 1 1 5DF89079
+P 4950 3700
+F 0 "U1" H 4950 4531 50  0000 C CNN
+F 1 "MAX31865AAP+T" H 4950 5050 50  0000 C CNN
+F 2 "SOP65P777X199-20N" H 4600 2400 50  0001 L BNN
+F 3 "https://www.digikey.de/product-detail/en/maxim-integrated/MAX31865AAP-T/MAX31865AAP-TCT-ND/7603749?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3350 2300 50  0001 L BNN
+F 4 "Rtd To Digital Converter In Ssop Tr" H 5600 2450 50  0001 L BNN "Field4"
+F 5 "MAX31865AAP+T" H 3850 2850 50  0001 L BNN "Field5"
+F 6 "Maxim Integrated" H 3900 2650 50  0001 L BNN "Field6"
+F 7 "SSOP-20 Maxim" H 3650 3000 50  0001 L BNN "Field7"
+F 8 "MAX31865AAP+TCT-ND" H 4550 2600 50  0001 L BNN "Field8"
+	1    4950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5DF8A2BD
+P 4950 2650
+F 0 "#PWR0101" H 4950 2500 50  0001 C CNN
+F 1 "+3V3" H 4965 2823 50  0000 C CNN
+F 2 "" H 4950 2650 50  0001 C CNN
+F 3 "" H 4950 2650 50  0001 C CNN
+	1    4950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5DF8A7B9
+P 5100 2950
+F 0 "C2" V 4871 2950 50  0000 C CNN
+F 1 "C_Small" V 4962 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 2950 50  0001 C CNN
+F 3 "~" H 5100 2950 50  0001 C CNN
+	1    5100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5DF8B44B
+P 4800 2950
+F 0 "C1" V 4571 2950 50  0000 C CNN
+F 1 "C_Small" V 4662 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 2950 50  0001 C CNN
+F 3 "~" H 4800 2950 50  0001 C CNN
+	1    4800 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DF8C1B0
+P 4700 2950
+F 0 "#PWR0102" H 4700 2700 50  0001 C CNN
+F 1 "GND" H 4705 2777 50  0000 C CNN
+F 2 "" H 4700 2950 50  0001 C CNN
+F 3 "" H 4700 2950 50  0001 C CNN
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DF8C7E6
+P 5200 2950
+F 0 "#PWR0103" H 5200 2700 50  0001 C CNN
+F 1 "GND" H 5205 2777 50  0000 C CNN
+F 2 "" H 5200 2950 50  0001 C CNN
+F 3 "" H 5200 2950 50  0001 C CNN
+	1    5200 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3050 4900 2950
+Wire Wire Line
+	4900 2750 4950 2750
+Wire Wire Line
+	4950 2750 4950 2650
+Connection ~ 4900 2950
+Wire Wire Line
+	4900 2950 4900 2750
+Wire Wire Line
+	4950 2750 5000 2750
+Wire Wire Line
+	5000 2750 5000 2950
+Connection ~ 4950 2750
+Connection ~ 5000 2950
+Wire Wire Line
+	5000 2950 5000 3050
+Wire Wire Line
+	4700 4350 4700 4450
+Wire Wire Line
+	4700 4450 4800 4450
+Wire Wire Line
+	4800 4450 4800 4350
+Wire Wire Line
+	4800 4450 4900 4450
+Wire Wire Line
+	4900 4450 4900 4350
+Connection ~ 4800 4450
+$Comp
+L power:GND #PWR0104
+U 1 1 5DF8DFEC
+P 4800 4450
+F 0 "#PWR0104" H 4800 4200 50  0001 C CNN
+F 1 "GND" H 4805 4277 50  0000 C CNN
+F 2 "" H 4800 4450 50  0001 C CNN
+F 3 "" H 4800 4450 50  0001 C CNN
+	1    4800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 5DF8EA7E
+P 6750 3950
+F 0 "J1" H 6642 3625 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 6642 3716 50  0000 C CNN
+F 2 "JanSquare:WAGO_2059-303_998-403" H 6750 3950 50  0001 C CNN
+F 3 "~" H 6750 3950 50  0001 C CNN
+	1    6750 3950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4000 5550 4000
+Wire Wire Line
+	6400 4100 6400 4050
+Wire Wire Line
+	6400 4050 6550 4050
+Wire Wire Line
+	6550 3950 6400 3950
+Wire Wire Line
+	6400 3950 6400 3900
+Wire Wire Line
+	6400 3900 6200 3900
+$Comp
+L Device:C_Small C3
+U 1 1 5DF91556
+P 6200 4000
+F 0 "C3" H 6100 4050 50  0000 R CNN
+F 1 "C_Small" H 6350 4200 50  0001 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 4000 50  0001 C CNN
+F 3 "~" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	-1   0    0    1   
+$EndComp
+Connection ~ 6200 4100
+Wire Wire Line
+	6200 4100 6400 4100
+Connection ~ 6200 3900
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5DF9277D
+P 5850 4000
+F 0 "JP3" H 6050 3950 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5800 3650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5850 4000 50  0001 C CNN
+F 3 "~" H 5850 4000 50  0001 C CNN
+	1    5850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5DF939BC
+P 5750 3300
+F 0 "R1" V 5554 3300 50  0000 C CNN
+F 1 "R_Small" V 5645 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 3300 50  0001 C CNN
+F 3 "~" H 5750 3300 50  0001 C CNN
+	1    5750 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3400 5550 3400
+Wire Wire Line
+	5550 3400 5550 3300
+Wire Wire Line
+	5550 3300 5500 3300
+Wire Wire Line
+	5550 3300 5650 3300
+Connection ~ 5550 3300
+Wire Wire Line
+	5500 3600 5550 3600
+Wire Wire Line
+	5550 3600 5550 3500
+Wire Wire Line
+	5550 3500 5500 3500
+Wire Wire Line
+	5550 3500 5950 3500
+Wire Wire Line
+	5950 3500 5950 3300
+Wire Wire Line
+	5950 3300 5850 3300
+Connection ~ 5550 3500
+Wire Wire Line
+	5500 3900 6000 3900
+Wire Wire Line
+	6000 4000 6000 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	6000 3900 6200 3900
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5DF99BD4
+P 5800 3800
+F 0 "JP2" H 6000 3750 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5750 3450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5800 3800 50  0001 C CNN
+F 3 "~" H 5800 3800 50  0001 C CNN
+	1    5800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3800 5550 3800
+Wire Wire Line
+	5950 3800 6000 3800
+Wire Wire Line
+	6450 3800 6450 3850
+Wire Wire Line
+	6450 3850 6550 3850
+Wire Wire Line
+	6000 3700 6000 3800
+Connection ~ 6000 3800
+Wire Wire Line
+	6000 3800 6450 3800
+Wire Wire Line
+	5500 3700 5600 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	5600 3700 6000 3700
+Wire Wire Line
+	5550 4000 5550 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	5550 4100 5500 4100
+Wire Wire Line
+	5550 4100 6200 4100
+Wire Wire Line
+	5600 4000 5700 4000
+Wire Wire Line
+	5600 3700 5600 4000
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5DF9EBD9
+P 5800 3600
+F 0 "JP1" H 6000 3550 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5750 3250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5800 3600 50  0001 C CNN
+F 3 "~" H 5800 3600 50  0001 C CNN
+	1    5800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3800 5550 3650
+Wire Wire Line
+	5550 3650 5650 3650
+Wire Wire Line
+	5650 3650 5650 3600
+Connection ~ 5550 3800
+Wire Wire Line
+	5550 3800 5650 3800
+$Comp
+L power:GND #PWR0105
+U 1 1 5DFA13CC
+P 6150 3650
+F 0 "#PWR0105" H 6150 3400 50  0001 C CNN
+F 1 "GND" H 6155 3477 50  0001 C CNN
+F 2 "" H 6150 3650 50  0001 C CNN
+F 3 "" H 6150 3650 50  0001 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3600 6150 3600
+Wire Wire Line
+	6150 3600 6150 3650
+NoConn ~ 4400 3450
+Text GLabel 4400 3550 0    50   Input ~ 0
+SPI_CLK
+Text GLabel 4400 3650 0    50   Input ~ 0
+CS
+Text GLabel 4400 3750 0    50   Input ~ 0
+SPI_SI
+Text GLabel 4400 3850 0    50   Output ~ 0
+SPI_SO
+$EndSCHEMATC
