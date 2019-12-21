@@ -10,6 +10,11 @@ D 3P 3.5mm Top Entry Screwless Connector. TE Connectivity 3.5mm Pitch Vertical P
 F https://componentsearchengine.com/Datasheets/1/1-2834011-3.pdf
 $ENDCMP
 #
+$CMP 1-2834011-4
+D 4P 3.5mm Top Entry Screwless Connector. TE Connectivity 3.5mm Pitch Vertical PCB Terminal Block with Solder Termination, Through Hole, 4 Way
+F https://componentsearchengine.com/Datasheets/1/1-2834011-4.pdf
+$ENDCMP
+#
 $CMP 1-2834011-6
 D Fixed Terminal Blocks 6POS 3.5MM TES CONN.
 F https://componentsearchengine.com/Datasheets/1/1-2834011-6.pdf

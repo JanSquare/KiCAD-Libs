@@ -20,6 +20,10 @@ D Fixed Terminal Blocks 6POS 3.5MM TES CONN.
 F https://componentsearchengine.com/Datasheets/1/1-2834011-6.pdf
 $ENDCMP
 #
+$CMP 2129691-1_USB-C
+F 2129691-1
+$ENDCMP
+#
 $CMP C10418
 D USB Connectors SMD RoHS
 F https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-MICRO-USB-5S-B-Type-horns-High-temperature_C10418.pdf
