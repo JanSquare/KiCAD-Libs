@@ -20,6 +20,10 @@ D Fixed Terminal Blocks 6POS 3.5MM TES CONN.
 F https://componentsearchengine.com/Datasheets/1/1-2834011-6.pdf
 $ENDCMP
 #
+$CMP 2129691-1_USB-C
+F 2129691-1
+$ENDCMP
+#
 $CMP C10418
 D USB Connectors SMD RoHS
 F https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-MICRO-USB-5S-B-Type-horns-High-temperature_C10418.pdf
@@ -27,6 +31,11 @@ $ENDCMP
 #
 $CMP MAX31865AAP+T
 F https://www.digikey.de/product-detail/en/maxim-integrated/MAX31865AAP-T/MAX31865AAP-TCT-ND/7603749?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol
+$ENDCMP
+#
+$CMP TS30013-M033QFNR
+D Switching Voltage Regulators IC Hi-Eff 3Amp DC/DC Conv 1MHz 3.3V Outpt
+F https://componentsearchengine.com/Datasheets/1/TS30013-M033QFNR.pdf
 $ENDCMP
 #
 #End Doc Library
