@@ -1,4 +1,4 @@
-(module CUI_PJ-002BH-SMT-TR (layer F.Cu) (tedit 5E53618B)
+(module CUI_PJ-002BH-SMT-TR (layer F.Cu) (tedit 5E536550)
   (fp_text reference REF** (at -8.06935 -2.82002) (layer F.SilkS)
     (effects (font (size 1.00178 1.00178) (thickness 0.015)))
   )
@@ -48,4 +48,9 @@
   (pad 2 smd rect (at -6.1 11.4) (size 2.8 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 1B smd rect (at -6.1 0) (size 2.8 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 1A smd rect (at 0 0) (size 2.8 2.4) (layers F.Cu F.Paste F.Mask))
+  (model C:/Users/marlo/Documents/GitHub/KiCAD-Libs/JanSquare.pretty/3Dmodels/CUI_DEVICES_PJ-002BH-SMT-TR.step
+    (offset (xyz -11 -5.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )
